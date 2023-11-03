@@ -20,6 +20,7 @@ body{
     background-size: cover ;
     background-position: absolute;
     padding: 10px 8%;
+    
 }
 nav{
     display: flex;
@@ -58,12 +59,16 @@ nav button{
 
 .head{
     
-    position: absolute;
-    top: 50%;
+    position: relative;
+    /* top: 50%;
     left: 20%;
-    transform: translate(-10%,-50%);
+    transform: translate(-10%,-50%); */
     text-align: center;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 
 }
@@ -92,7 +97,7 @@ nav button{
     border-radius: 4px;
     display: flex;
     align-items: center;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     margin-top: 30px;
     overflow: hidden;
 }
